@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(226, 43, 180);
+    padding: 3em;
+    font-family: 'Righteous', cursive;
+}
+
+
+
+nav {
+    padding: 1.5em;
+    margin-bottom: 1em;
+    border: .5em double rgb(226, 43, 150);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: rgb(226, 43, 170);
+    color: white;
+    padding: 0.5em 6.77em;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: blue;
+}
+
+
+
+.page {
+    background-color: rgb(226, 43, 150);
+    margin-top: 10em;
+}
+
+
+
+.page {
+    height: 3.12em;
+    border-radius: .5em;
+    transition: .8s;
+}
+
+.page:hover {
+    height: 90em;
+    transition: 1s;
+}
+
+.page:hover h1 {
+    opacity: 0%;
+    transition: 1s;
+}
+
+.page:hover #one {
+    opacity: 100%;
+    transition: 1s;
+}
+
+.page:hover #two {
+    opacity: 100%;
+    transition: 1s;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    transition: 1s;
+}
+
+#one {
+    opacity: 0%;
+    transition: .5s;
+}
+
+#two {
+    opacity: 0%;
+    transition: .5s;
+}
+
+
+
+#firstpost img{
+    width: 21.8em;
+    padding: 2em;
+}
+
+#textfp {
+    color: white;
+    line-height: 1.5;
+    padding: 2em;
+}
+
+
+
+#secondpost img{
+    width: 21.8em;
+    padding: 2em;
+}
+
+#secondpost {
+    text-align: right;
+}
+
+#textsp {
+    color: white;
+    line-height: 1.5;
+    text-align: right;
+    padding: 2em;
+}
